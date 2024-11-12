@@ -1,0 +1,53 @@
+body{
+    background: url(background3.jpg);
+    width: 100%;
+    height: 100vh;
+    font-family: 'sans-serif';
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+.order{
+    width: 390px;
+    height: 300px;
+    margin: auto;
+    font-size: 22px;
+
+}
+h1{
+    text-align: center;
+    color: wheat;
+    font-size: 40px;
+    font-family: cursive;
+    font-size: 50px;
+}
+h1 span{
+    color: rgb(255, 154, 117);
+}
+form{
+    width: 250px;
+    margin: auto;
+}
+form label{
+    font-size: 25px;
+    color: white;
+}
+form input{
+    width: 100%;
+    padding: 8px;
+    border: none;
+    
+}
+.submit{
+    width: 260px;
+    height: 35px;
+    margin-top: 15px;
+    border: none;
+    background-color: rgb(255, 107, 53);
+    color: white  ;
+    font-size: 23px;
+    cursor: pointer;
+    text-align: center;
+}

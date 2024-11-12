@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    right: 0px;
+    left: 0px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0 ,0 ,0, 0.5);
+    
+}
+.logo img{
+    width: 50px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.logo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    margin: 0px;
+}
+.logo p{
+    padding: 10px;
+    font-size: 40px;
+    color: #fea948;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.ul{
+    list-style-type: none;
+
+}
+.ul li{
+    display: inline-block;
+    margin: 0 15px;
+}
+.ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 15px;
+}
+.ul li a:hover{
+    color: #fea948;
+
+}
+.icon i{
+    font-size: 20px;
+    color: black;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.icon i:hover{
+    color: #fea948;;
+}
+.menu{
+    width: 100%;
+    padding: 120px 0;
+}
+.menu h1{
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    color: black;
+    font-family:'Arial Narrow', Arial, sans-serif;
+
+}
+.menu h1 span{
+    margin-left: 10px;
+    color: #fe8903;
+    font-size: 60px;
+    font-family:'Arial Narrow', Arial, sans-serif;
+}
+.menu .menu_box{
+    width: 95%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
+.menu .menu_box .menu_card{
+    width: 325px;
+    height: 550px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+.menu .menu_box .menu_card .menu_image{
+    width: 300px;
+    height: 245px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.menu .menu_box .menu_card .menu_image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.3s;
+}
+.menu .menu_box .menu_card .menu_info{
+    text-align: justify;
+
+}
+.menu .menu_box .menu_card .menu_info a{
+    color:  #fe8903;
+    font-size: 18px;
+    font-weight: bolder;
+    
+}
+.menu .menu_box .menu_card .menu_info a:hover{
+    color: #fe8903;
+}
+.menu .menu_box .menu_card .menu_info h2{
+    color: #fe8903;
+    text-align: center;
+    font-size: 30px;
+}
+.menu .menu_box .menu_card .menu_info p{
+    margin: 2px 10px;
+}
+
+.menu .menu_box .menu_card .menu_info h3{
+    text-align: center;
+    margin-top: 10px;
+}
+.menu .menu_box .menu_card .menu_info .menu_icon
+{
+    color: #fe8903;
+    text-align: center;
+    margin: 10px 0 20px 0;
+}
+.menu .menu_box .menu_card .menu_info .menu_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    background: black;
+    padding: 8px 10px;
+    margin: 0 80px;
+    transition: 0.3s;
+
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="order.css">
+</head>
+<body>
+    <div class="Order">
+        <h1>Place <span> order</span> </h1>
+        <form action="insert.php" method="post">
+        
+    
+            <label>First Name:</label><br>
+            <input type="text" id="first_name" name="first_name" required><br><br>
+    
+            <label>Last Name:</label><br>
+            <input type="text" id="last_name" name="last_name" required><br><br>
+    
+            <label>Email:</label><br>
+            <input type="email" id="e_mail" name="e_mail" required><br><br>
+    
+            <label>Phone Number:</label><br>
+            <input type="tel" id="phone_number" name="phone_number" required><br><br>
+    
+            <!-- Address -->
+            <label>Address:</label><br>
+            <textarea id="address" name="address" rows="4" cols="33" required></textarea><br><br>
+    
+            <label>Qty</label><br>
+            <input type="qty" id="qty" name="qty" required><br><br>
+
+            <label>Payment Method</label><br>
+            <input type="payment" id="payment" name="payment" required><br><br>
+    
+    
+            <!-- Submit Button -->
+            <input class="submit" type="Submit" name="Submit" value="Submit">
+        </form>
+
+
+    </div>
+</body>
+</html>
